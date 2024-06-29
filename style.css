@@ -1,0 +1,717 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppie',sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    background: black;
+}
+
+.sidebar{
+    width: 300px;
+    background: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px ;
+}
+
+.sidebar-nav{
+    background: #111111;
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin-bottom:10px ;
+
+}
+.sidebar-nav .logo  {
+    width: 120px;
+
+}
+
+.sidebar-nav .logo img{
+    width: 100%;
+}
+
+.sidebar-nav ul{
+    list-style: none;
+}
+.sidebar-nav ul li{
+    padding: 7px ;
+}
+.sidebar-nav ul li a{
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 600;
+}
+.sidebar-nav ul li a:hover{
+    text-decoration: underline;
+    color: #d1d1d1;
+}
+.sidebar-nav ul li a i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.plus{
+    margin-left: 80px;
+}
+.firstBox{
+    background: #222222;
+    border-radius: 10px;
+    padding: 18px 15px ;
+    margin-bottom:10px ;
+}
+.secondBox{
+    background: #222222;
+    border-radius: 10px;
+    padding: 18px 15px ;
+    margin-bottom:10px ;
+}
+
+                                    /* Scrollbaar Css */
+.container{
+    height: 120px;
+    overflow-y: auto;
+}
+
+.container::-webkit-scrollbar{
+    background: transparent;
+}
+.container::-webkit-scrollbar-thumb{
+    background: transparent;
+    width: 10px;
+}
+.container:hover::-webkit-scrollbar-thumb{
+    background: #444444;
+    width: 2px;
+}
+
+                                     /* EndS Here */
+.firstBox h4{
+    color: #fff;
+    font-size: 15px;
+}
+.firstBox p{
+    color: #fff;
+    font-size: 12px;
+    margin: 12px 0;
+}
+.firstBox button{
+    padding: 8px 15px;
+    border: 0;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.secondBox h4{
+    color: #fff;
+    font-size: 15px;
+}
+.secondBox p{
+    color: #fff;
+    font-size: 12px;
+    margin: 12px 0;
+}
+.secondBox button{
+    padding: 8px 15px;
+    border: 0;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.bottom ul li a{
+    text-decoration: none;
+    color: #868383;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 4px;
+}
+.bottom ul {
+    list-style: none;
+    margin-top: 10px;
+}
+.bottom ul li{
+    padding: 0 8px;
+    padding-bottom: 6px;
+}
+.bottom ul li a:hover{
+    text-decoration: underline;
+    color: #d5d5d5;
+}
+
+.btn{
+    border: 1px solid #8f8e8e;
+    background: transparent;
+    color: #c3c2c2;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 15px;
+    
+} 
+.btn i{
+    padding-right: 5px;
+}
+.btn:hover{
+    padding: 9px;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+/*----------------- main section starts heree -----------------------------  */
+.main{
+    width: 850px;
+    margin-top: 10px;
+    margin-left: 300px; 
+    background: #202020;
+    height: 505px;
+    border-radius: 20px 20px 0 0;
+    margin-right: 8px;
+    position: fixed;
+    overflow-y:auto ;
+}
+.main .topNav{
+    display: flex;
+    padding: 20px 30px;
+    background: #121212 ;
+    position: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px 20px 0 0;
+    margin-top: 2 px;
+    z-index: 1000;
+}
+.main .prev-btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display:flex ;
+    background: #000000;
+    
+}
+.btn1{
+    border: 0;
+    background: transparent;
+    color: #c1bfbf;
+    outline: 0;
+    padding-left: 7px;
+    cursor: pointer;
+}
+/* .btn2{
+    border: 0;
+    background: transparent;
+    color: #c1bfbf;
+    outline: 0;
+    padding-left: 7px;
+
+} */
+.btn1 i{
+    font-size: 22px;
+    margin-right: 10px;
+}
+.login-btn{
+    justify-content: space-between;
+}
+.sign{
+
+    border-radius: 20px;
+    outline: 0;
+    border: 0;
+    background: transparent;
+    color: #a09c9c ;
+    padding-right: 9px;
+}
+.sign:hover{
+    font-size: 15px ;
+    color: #d8d8d8;
+}
+
+.log{
+    border: 0;
+    outline: 0;
+    width: 75px;
+    color: #000000 ;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background: #fff;
+    margin-left: 10px;
+}
+.log:hover{
+    width: 75px;
+    
+    border-radius: 25px;
+    outline: 0;
+    border: 0;
+    background: #fff;
+    color: #000000 ;
+    margin-left: 10px;
+    font-size: 16;
+    font-weight: 600;
+}
+/* h1{
+    color: #fff;
+    padding: 40px 0 0 20px;
+} */
+
+.main .containets{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .containets h1{
+    color: #ffffff;
+    padding: 40px 0 0 20px;
+    font-size: 28px;
+}
+.main .containets h1:hover{
+    color: #ffffff;
+    padding: 40px 0 0 20px;
+    font-size: 28px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.main .containets p{
+    padding: 45px 20px 0 0;
+    font-size: 15px;
+}
+.main .containets p a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.main .containets p a:hover{
+    text-decoration: underline;
+}
+
+
+                                    /* box song start here  */
+.main .box-song{
+    display: flex;
+    padding: 10px 10px 10px 15px ;
+
+}
+
+.box-song .play1:hover{
+    background: #2f2e2e;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.box-song .play1 img{
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.box-song .play1 h4{
+    color: #fff;
+    padding-bottom: 7px;
+    padding-left: 10px;
+}
+.box-song .play1 p{
+    color: #a8a4a4;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+/* ...................................... */
+.box-song .play2 img{
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.box-song .play2 h4{
+    color: #fff;
+    padding-bottom: 7px;
+    padding-left: 10px;
+}
+.box-song .play2 p{
+    color: #a8a4a4;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.box-song .play2:hover{
+    background: #2f2e2e;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* ...................................... */
+.box-song .play3 img{
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.box-song .play3 h4{
+    color: #fff;
+    padding-bottom: 7px;
+    padding-left: 10px;
+}
+.box-song .play3 p{
+    color: #a8a4a4;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.box-song .play3:hover{
+    background: #2f2e2e;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* ........................... */
+.box-song .play4 img{
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.box-song .play4 h4{
+    color: #fff;
+    padding-bottom: 7px;
+    padding-left: 10px;
+}
+.box-song .play4 p{
+    color: #a8a4a4;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.box-song .play4:hover{
+    background: #2f2e2e;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* ................................. */
+.box-song .play5 img{
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.box-song .play5 h4{
+    color: #fff;
+    padding-bottom: 7px;
+    padding-left: 10px;
+}
+.box-song .play5 p{
+    color: #a8a4a4;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.box-song .play5:hover{
+    background: #2f2e2e;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+                      /* End of play list section  */
+.popular-radio{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+}
+.popular-radio h1{
+    color: #ffffff;
+    padding: 40px 0 0 20px;
+    font-size: 28px;
+}
+.popular-radio  p{
+    padding: 45px 20px 0 0;
+    font-size: 15px;
+}
+.popular-radio p a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/*.......................... radio words...................... */
+.box-song-list{
+    display: flex;
+    padding: 10px 10px 10px 5px ;
+}
+.box-song-list .play1 img{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    padding: 14px;
+}
+
+#popo{
+    margin-left: 6px;
+}
+.box-song-list .play1 h4{
+    color: #fff;
+    padding-bottom: 7px;
+    padding-left: 10px;
+}
+.box-song-list .play1 p{
+    color: #a8a4a4;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.box-song-list .play1:hover{
+    background: #2f2e2e;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.box-song-list .play1 p:hover{
+    text-decoration: underline;
+}
+.box-song .play-btn-img{
+    position: relative;
+}
+.box-song .play-btn-img i{
+    position: absolute;
+    background: #1db954;
+    border-radius: 50%;
+    padding: 18px;
+    right: 21px;
+    top: -70px;
+    opacity: 0;
+    transition: 0.3s ease all;
+}
+.box-song .play1:hover .play-btn-img i{
+    opacity: 1;
+}
+.box-song .play2:hover .play-btn-img i{
+    opacity: 1;
+}
+.box-song .play3:hover .play-btn-img i{
+    opacity: 1;
+}
+.box-song .play4:hover .play-btn-img i{
+    opacity: 1;
+}
+.box-song .play5:hover .play-btn-img i{
+    opacity: 1;
+}
+/*   ------------------------- popular radio div  area --------------------*/
+.play-btn-img-1{
+    position: relative;
+}
+.play-btn-img-1 i{
+    position: absolute;
+    background: #1db954;
+    border-radius: 50%;
+    padding: 18px;
+    right: 15px;
+    top: -70px;
+    opacity: 0;
+    transition: 0.3s ease all;
+}
+.play1:hover .play-btn-img-1 i{
+    opacity: 1;
+}
+
+
+
+/* ........................................................................ */
+
+.popular-charts{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+}
+.popular-charts h1{
+    color: #ffffff;
+    padding: 40px 0 0 20px;
+    font-size: 28px;
+}
+.popular-charts p{
+    padding: 45px 20px 0 0;
+    font-size: 15px;
+}
+.popular-charts p a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* ................................................ */
+
+.charts-popular{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+}
+.charts-popular h1{
+    color: #ffffff;
+    padding: 40px 0 0 20px;
+    font-size: 28px;
+}
+.charts-popular p{
+    padding: 45px 20px 0 0;
+    font-size: 15px;
+}
+.charts-popular p a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* ....................................................................................... */
+
+.contents{
+    display: flex;
+    /* justify-content: space-between; */
+    margin:50px 30px  10px 40px;
+    
+}
+.cell2{
+    padding-left: 40px;
+}
+.cell3{
+    padding-left: 40px;
+}
+.cell4{
+    padding-left: 40px;
+}
+.cell5{
+    padding-left: 40px;
+}
+
+.contents .col-cont-A ul li a{
+    list-style: none;
+    color: #fff;
+    text-decoration-style: none;
+}
+
+#Company a{
+    color: #ffffff;
+    text-decoration: none;
+    cursor: context-menu;
+    
+}
+
+.col-cont-A li {
+    list-style: none;
+    margin-bottom: 7px;
+}
+.col-cont-A li a{
+    color: #a8a4a4;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.contents .col-cont-A .hover A:hover{
+    color: #f3f1f1;
+    text-decoration: underline;
+}
+#Company{
+    list-style: none;
+    cursor:text;
+    
+}
+    /* ,............................................................. */
+    #Communities {
+        color: #ffffff;
+        cursor: context-menu;
+        text-decoration: none;
+        padding-bottom: 7px;
+    }
+    .col-cont-B  li{
+    list-style: none;
+    
+    padding-top: 9px;
+}
+.col-cont-B  li a{
+    text-decoration: none;
+    color: #a8a4a4;  
+}
+.col-cont-B  li a:hover{
+    color: #f3f1f1;
+    text-decoration: underline;
+}
+
+/* .............................................. */
+#useful {
+    color: #ffffff;
+    cursor: context-menu;
+    text-decoration: none;
+    padding-bottom: 7px;
+}
+.col-cont-C  li{
+list-style: none;
+
+padding-top: 9px;
+}
+.col-cont-C  li a{
+text-decoration: none;
+color: #a8a4a4;  
+}
+.col-cont-C  li a:hover{
+color: #f3f1f1;
+text-decoration: underline;
+}
+/* ............................................................ */
+#spotify {
+    color: #ffffff;
+    cursor: context-menu;
+    text-decoration: none;
+    padding-bottom: 7px;
+}
+.col-cont-D  li{
+list-style: none;
+
+padding-top: 9px;
+}
+.col-cont-D  li a{
+text-decoration: none;
+color: #a8a4a4;  
+}
+.col-cont-D  li a:hover{
+color: #f3f1f1;
+text-decoration: underline;
+}
+/* .............................................................................. */
+.col-cont-E{
+    display: flex;
+    justify-content: space-between;
+}
+.col-cont-E .pre-btn1{
+    padding: 10px;
+    padding-top: 0;
+}
+.col-cont-E .pre-btn1 button{
+    width: 40px;
+    height: 40px;
+    border-radius:50% ;
+    background: #363535;
+    border: none;
+}
+.col-cont-E .pre-btn1 button i{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.col-cont-E .pre-btn1 button:hover{
+    width: 40px;
+    height: 40px;
+    border-radius:50% ;
+    background: #4b4a4a;
+    border: none;
+}
+
+/* .........................................line code ........................... */
+.h{
+    width: 90%;
+    height: 2px;
+    border: 0 none;
+    margin-right:auto ;
+    margin-left:auto ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(74, 73, 73);
+    
+}
+
+/* ...................line code ends here ........................... */
+
+.pera{
+    padding-left: 40px;
+    padding-bottom: 70px;
+    color:rgb(158, 152, 152); ;
+}
